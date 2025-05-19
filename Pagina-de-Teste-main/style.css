@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 300vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 80px;
+  margin-top: 26px;
+}
+.opcoes {
+  display: flex;
+  gap: 2.5rem;
+  flex: 1;
+  justify-content: center;
+  font-family: "Roboto";
+}
+.opcoes a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 100;
+}
+.opcoes h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+.o1 {
+  color: #006d77;
+}
+.botoes-direita {
+  display: flex;
+  gap: 1rem;
+}
+.get-started {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  background-color: #bee1e6;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  width: 133px;
+  height: 38px;
+  justify-content: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.get-started:hover {
+  transform: scale(1.1);
+}
+.menu {
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+}
+.logo {
+  margin-left: 100px;
+}
+.banner-principal {
+  width: 100%;
+  height: 532px;
+  background-color: #bee1e6;
+  display: flex;
+  justify-content: space-between;
+}
+.digital {
+  background-color: #006d77;
+  width: 188px;
+  height: 36px;
+  border-radius: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
+.t1 {
+  font-family: "Roboto";
+  font-size: 53px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 17px;
+}
+.t2 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  color: #444;
+  margin-bottom: 24px;
+}
+.get-started-2 {
+  width: 157px;
+  height: 58px;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 2px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 71px;
+}
+.get-started-2:hover {
+  background-color: #006d77;
+  color: #ffffff;
+  border: none;
+  transform: scale(1.1);
+}
+.how-it-works {
+  width: 167px;
+  height: 58px;
+  color: rgb(0, 0, 0);
+  background-color: unset;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 2px;
+  border-color: #006d77;
+}
+.how-it-works:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  transform: scale(1.1);
+}
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 81px;
+  margin-left: 167px;
+}
+.botoes {
+  display: flex;
+  flex-direction: row;
+}
+.img-princ {
+  margin-top: 81px;
+  margin-right: 266px;
+  width: 431px;
+  height: 418px;
+}
+.img-princ:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.1s;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 103px;
+}
+.cards-top {
+  display: flex;
+  justify-content: space-around;
+  width: 1348px;
+  gap: 30px;
+  cursor: pointer;
+}
+.cards-top img:hover {
+  transform: scale(1.2);
+}
+.cards-bottom {
+  display: flex;
+  justify-content: space-around;
+  width: 1348px;
+  margin-top: 76px;
+  margin-bottom: 103px;
+  cursor: pointer;
+}
+.cards-bottom img:hover {
+  transform: scale(1.2);
+}
+.line {
+  background-color: #e0e0e0;
+  height: 1px;
+  width: 919px;
+}
+.linha {
+  display: flex;
+  justify-content: center;
+}
+.feedbacks {
+  display: flex;
+  justify-content: center;
+  gap: 96px;
+  margin-top: 103px;
+}
+.digital2 {
+  background-color: #bee1e6;
+  width: 188px;
+  height: 36px;
+  border-radius: 16px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 21px;
+}
+.garddy {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.tx {
+  display: flex;
+  flex-direction: column;
+  margin-left: 19px;
+}
+.feedback-title {
+  font-family: "Roboto";
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 21px;
+}
+.feedback-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #444;
+  font-weight: 300;
+  margin-bottom: 41px;
+}
+.name {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+}
+.text-garddy {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 9px;
+  color: #444444;
+}
+.Herdric {
+  display: flex;
+  align-items: flex-start;
+}
+.Ideas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.pessoas-ideas {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.eleanor {
+  display: flex;
+  align-items: flex-start;
+}
+.Ideas {
+  margin-top: 103px;
+}
+.Ideas h2 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.leading{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #D3F9FF;
+  height: 603px;
+  align-items: center;
+}
+.lead-people{
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+}
+.Hawkins{
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.footer1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 441px;
+} 
+.topics{
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #929292;
+  font-weight: 600;
+}
+.line-topics{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 16px;
+}
+.line-topics h2{
+  cursor: pointer;
+}
+.princ-topics{
+  display: flex;
+  flex-direction: row;
+  gap: 136px;
+}
+.line-topics2{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 21px;
+}
+.line-topics2 h2{
+  cursor: pointer;
+}
+.elanor-pena{
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.logo2{
+  width: 160px;
+  height: auto;
+  
+}
+.footer-verde{
+  background-color:#006d77;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.footer-verde h1{
+  font-size: 16px;
+  font-weight: 500;
+}
